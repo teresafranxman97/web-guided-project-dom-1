@@ -20,7 +20,7 @@ const titleFirstCard = firstCard.querySelector("h2");
 const subtitleFirstCard = firstCard.querySelector("h3");
 const textFirstCard = firstCard.querySelector("p");
 // C- traversing with dot notation
-const link1FirstCard = document.querySelector('card-link.nth-of-type(1)');
+const link1FirstCard = ;
 const link2FirstCard = null;
 
 // 👉 2- Finding collections of elements in the DOM
