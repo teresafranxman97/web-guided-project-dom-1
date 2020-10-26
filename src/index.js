@@ -9,6 +9,7 @@ const copyOfFirstCard = firstCard.cloneNode(true);
 console.log(copyOfFirstCard);
 
 const cardContainer = document.querySelector(".card-group")
+cardContainer.appendChild
 
 // A- finding across the entire DOM
 const header = null;
