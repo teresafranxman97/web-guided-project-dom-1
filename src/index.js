@@ -36,9 +36,11 @@ console.log(linksRealArray);
 console.log(
   (result = linksRealArray.filter((word) => word.textContent === "Home"))
 );
+console.log(result);
 
 // 👉 3- Changing an element's text content
 //  A- Change the cat-related content into dog-related content
+
 //  B- Have the students research online the difference between textContent and innerText
 
 // 👉 4- Changing any property
