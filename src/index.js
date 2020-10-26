@@ -15,7 +15,7 @@ cardContainer.appendChild(copyOfFirstCard);
 const header = null;
 const logoTitle = null;
 // console.log(firstCard);
-const copyOfFirstCard = firstCard.cloneNode(true);
+// const copyOfFirstCard = firstCard.cloneNode(true);
 console.log(copyOfFirstCard);
 // B- finding within one particular element
 const imageFirstCard = null;
