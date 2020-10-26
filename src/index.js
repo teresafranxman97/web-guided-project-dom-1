@@ -8,7 +8,7 @@ const firstCard = document.querySelector(".card");
 const copyOfFirstCard = firstCard.cloneNode(true);
 console.log(copyOfFirstCard);
 
-document.querySelector(".card-group")
+const cardContainer = document.querySelector(".card-group")
 
 // A- finding across the entire DOM
 const header = null;
