@@ -16,9 +16,8 @@ const logoTitle = document.querySelector("#logoTitle");
 const firstCard = document.querySelector(".card");
 // B- finding within one particular element
 const imageFirstCard = document.querySelector(".card-img-top");
-console.log(imageFirstCard);
-const titleFirstCard = null;
-const subtitleFirstCard = null;
+const titleFirstCard = firstCard.querySelector('h2')
+const subtitleFirstCard = firstCard.querySelector('h3')
 const textFirstCard = null;
 // C- traversing with dot notation
 const link1FirstCard = null;
