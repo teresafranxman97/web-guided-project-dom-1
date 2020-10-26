@@ -15,7 +15,7 @@ const header = document.querySelector("header");
 const logoTitle = document.querySelector('#logoTitle')
 const firstCard = document.querySelector(".card");
 // B- finding within one particular element
-const imageFirstCard = null;
+const imageFirstCard = document.querySelector(".card-img-top");
 const titleFirstCard = null;
 const subtitleFirstCard = null;
 const textFirstCard = null;
