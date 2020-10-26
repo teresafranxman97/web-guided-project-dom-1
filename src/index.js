@@ -4,7 +4,11 @@
 //  Select the following single elements from the div.card
 
 const firstCard = document.querySelector(".card");
+// console.log(firstCard);
+const copyOfFirstCard = firstCard.cloneNode(true);
+console.log(copyOfFirstCard);
 
+const cardContainer = null;
 
 // A- finding across the entire DOM
 const header = null;
