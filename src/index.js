@@ -22,7 +22,7 @@ const textFirstCard = firstCard.querySelector("p");
 // C- traversing with dot notation
 const link1FirstCard = textFirstCard.nextElementSibling;
 console.log(link1FirstCard);
-const link2FirstCard = null;
+const link2FirstCard = link1FirstCard.nextElementSibling;
 
 // 👉 2- Finding collections of elements in the DOM
 // A- Find all the anchor tags inside the nav element
