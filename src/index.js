@@ -25,6 +25,8 @@ const link2FirstCard = link1FirstCard.nextElementSibling;
 
 // 👉 2- Finding collections of elements in the DOM
 // A- Find all the anchor tags inside the nav element
+const links = document.querySelectorAll("nav a");
+console.log(links);
 // B- Loop over the links and console.log their text content
 // C- Turn the collection of links into a real array
 // D- Use .filter to find the anchor tag with the textContent of "Home"
