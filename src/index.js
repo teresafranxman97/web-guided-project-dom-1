@@ -7,9 +7,9 @@
 const header = null;
 const logoTitle = null;
 const firstCard = document.querySelector(".card");
-console.log(firstCard);
+// console.log(firstCard);
 const copyOfFirstCard = firstCard.cloneNode(true);
-console.log()
+console.log(copyOfFirstCard);
 // B- finding within one particular element
 const imageFirstCard = null;
 const titleFirstCard = null;
