@@ -21,7 +21,6 @@ const subtitleFirstCard = firstCard.querySelector("h3");
 const textFirstCard = firstCard.querySelector("p");
 // C- traversing with dot notation
 const link1FirstCard = textFirstCard.nextElementSibling;
-console.log(link1FirstCard);
 const link2FirstCard = link1FirstCard.nextElementSibling;
 
 // 👉 2- Finding collections of elements in the DOM
