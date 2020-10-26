@@ -30,6 +30,7 @@ console.log(links);
 // B- Loop over the links and console.log their text content
 links.forEach((link) => console.log(link.textContent));
 // C- Turn the collection of links into a real array
+const linksRealArray = Array.from(links);
 // D- Use .filter to find the anchor tag with the textContent of "Home"
 
 // 👉 3- Changing an element's text content
