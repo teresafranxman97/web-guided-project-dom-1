@@ -64,6 +64,7 @@ header.classList.remove("sky");
 setInterval(() => header.classList.toggle("sky"), 1000);
 //  B- By manipulating inline styles on the element
 
+
 // 👉 6- Creating new elements from scratch and appending them
 // Create a new link inside the nav for "Blog"
 
