@@ -11,8 +11,7 @@
 // cardContainer.appendChild(copyOfFirstCard);
 
 // A- finding across the entire DOM
-const header = null;
-const logoTitle = null;
+const header = document.querySelector('header') const logoTitle = null;
 const firstCard = document.querySelector(".card");
 // B- finding within one particular element
 const imageFirstCard = null;
