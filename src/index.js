@@ -15,10 +15,10 @@ const header = document.querySelector("header");
 const logoTitle = document.querySelector("#logoTitle");
 const firstCard = document.querySelector(".card");
 // B- finding within one particular element
-const imageFirstCard = document.querySelector(".card-img-top");
-const titleFirstCard = firstCard.querySelector('h2')
-const subtitleFirstCard = firstCard.querySelector('h3')
-const textFirstCard = null;
+const imageFirstCard = firstCard.querySelector("img");
+const titleFirstCard = firstCard.querySelector("h2");
+const subtitleFirstCard = firstCard.querySelector("h3");
+const textFirstCard = firstCard.querySelector("p");
 // C- traversing with dot notation
 const link1FirstCard = null;
 const link2FirstCard = null;
