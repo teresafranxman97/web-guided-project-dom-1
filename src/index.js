@@ -51,6 +51,8 @@ link2FirstCard.textContent = "Dog Ipsum";
 // 👉 4- Changing any property
 //  A- Using dot notation to change a few attributes
 logoTitle.className = "logo heading banana";
+imageFirstCard.src =
+  "https://cdn.pixabay.com/photo/2017/09/25/13/12/dog-2785074__340.jpg";
 //  B- Using .setAttribute to change a few attributes
 
 // 👉 5- Changing the styling of an element
