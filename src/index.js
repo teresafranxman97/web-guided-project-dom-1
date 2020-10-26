@@ -6,7 +6,7 @@
 // A- finding across the entire DOM
 const header = null
 const logoTitle = null
-const firstCard = null
+const firstCard = 
 // B- finding within one particular element
 const imageFirstCard = null
 const titleFirstCard = null
