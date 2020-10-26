@@ -69,7 +69,8 @@ header.style.fontSize = "2em";
 // Create a new link inside the nav for "Blog"
 const blogLink = document.createElement("a");
 blogLink.textContent = "Blog";
-
+blogLink.href = "#";
+document.querySelector("nav");
 
 // 👉 7- Making a copy of the card and appending it to the card group
 // DOM nodes can only exist in one spot in the DOM
