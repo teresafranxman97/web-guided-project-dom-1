@@ -3,7 +3,7 @@
 //  Newer: querySelector, querySelectorAll
 //  Select the following single elements from the div.card
 
-const firstCard = document.querySelector(".card");
+// const firstCard = document.querySelector(".card");
 // console.log(firstCard);
 const copyOfFirstCard = firstCard.cloneNode(true);
 console.log(copyOfFirstCard);
