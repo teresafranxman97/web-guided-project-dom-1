@@ -6,7 +6,7 @@
 // A- finding across the entire DOM
 const header = null;
 const logoTitle = null;
-const firstCard = document.querySelector("dfdjfhfdkha");
+const firstCard = document.querySelector("div");
 console.log(firstCard);
 // B- finding within one particular element
 const imageFirstCard = null;
