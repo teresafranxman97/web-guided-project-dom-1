@@ -3,18 +3,17 @@
 //  Newer: querySelector, querySelectorAll
 //  Select the following single elements from the div.card
 
-const firstCard = document.querySelector(".card");
 // console.log(firstCard);
-const copyOfFirstCard = firstCard.cloneNode(true);
-console.log(copyOfFirstCard);
+// const copyOfFirstCard = firstCard.cloneNode(true);
+// console.log(copyOfFirstCard);
 
-const cardContainer = document.querySelector(".card-group");
-cardContainer.appendChild(copyOfFirstCard);
+// const cardContainer = document.querySelector(".card-group");
+// cardContainer.appendChild(copyOfFirstCard);
 
 // A- finding across the entire DOM
 const header = null;
 const logoTitle = null;
-// const firstCard = null;
+const firstCard = document.querySelector(".card");
 // B- finding within one particular element
 const imageFirstCard = null;
 const titleFirstCard = null;
