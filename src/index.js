@@ -8,8 +8,8 @@ const firstCard = document.querySelector(".card");
 const copyOfFirstCard = firstCard.cloneNode(true);
 console.log(copyOfFirstCard);
 
-const cardContainer = document.querySelector(".card-group")
-cardContainer.appendChild
+const cardContainer = document.querySelector(".card-group");
+cardContainer.appendChild(copyOfFirstCard);
 
 // A- finding across the entire DOM
 const header = null;
