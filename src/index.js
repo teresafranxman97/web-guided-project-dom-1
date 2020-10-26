@@ -19,8 +19,9 @@ const imageFirstCard = firstCard.querySelector("img");
 const titleFirstCard = firstCard.querySelector("h2");
 const subtitleFirstCard = firstCard.querySelector("h3");
 const textFirstCard = firstCard.querySelector("p");
+console.log(textFirstCard);
 // C- traversing with dot notation
-const link1FirstCard = ;
+const link1FirstCard = null;
 const link2FirstCard = null;
 
 // 👉 2- Finding collections of elements in the DOM
